@@ -1,7 +1,7 @@
 param (
-    [string]$FileName,       
-    [string]$DateFormat,     
-    [string]$FolderPath      
+    [string]$FileName,       # Example: "rep[yymmdd]_test.txt"
+    [string]$DateFormat,     # Example: "yymmdd"
+    [string]$FolderPath      # Example: "C:\Users\Ale6\Documents\fileName\files"  
 )
 
 function Extract-DateFromFilename {
